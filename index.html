@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<style>
+		/* Base Styles */
+		body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			background-color: #0d1117;
+			color: #c9d1d9;
+		}
+		a {
+			color: #58a6ff;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+
+		/* Header */
+		header {
+			background-color: #161b22;
+			padding: 20px;
+			text-align: center;
+			border-bottom: 1px solid #30363d;
+		}
+		header h1 {
+			margin: 0;
+			font-size: 2rem;
+		}
+		header p {
+			margin: 5px 0;
+			font-size: 1rem;
+			color: #8b949e;
+		}
+
+		/* Main Content */
+		main {
+			padding: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		section {
+			margin-bottom: 40px;
+		}
+		section h2 {
+			border-bottom: 2px solid #30363d;
+			padding-bottom: 5px;
+			margin-bottom: 15px;
+			font-size: 1.5rem;
+		}
+		.project {
+			background-color: #161b22;
+			padding: 15px;
+			border: 1px solid #30363d;
+			border-radius: 5px;
+			margin-bottom: 15px;
+		}
+		.project h3 {
+			margin: 0 0 5px 0;
+			font-size: 1.2rem;
+		}
+		.project p {
+			margin: 0;
+			color: #8b949e;
+		}
+
+		/* Contact Section */
+		.contact-links {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+		.contact-links a {
+			display: inline-block;
+			padding: 10px 15px;
+			background-color: #21262d;
+			border: 1px solid #30363d;
+			border-radius: 5px;
+			text-align: center;
+			transition: background-color 0.2s;
+		}
+		.contact-links a:hover {
+			background-color: #30363d;
+		}
+
+		/* Footer */
+		footer {
+			text-align: center;
+			padding: 10px 0;
+			font-size: 0.9rem;
+			color: #8b949e;
+			border-top: 1px solid #30363d;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Your Name</h1>
+		<p>Welcome to my portfolio!</p>
+	</header>
+	<main>
+		<section id="projects">
+			<h2>Projects/Work</h2>
+			<div class="project">
+				<h3>Project 1</h3>
+				<p>Description of your first project. <a href="#">View Project</a></p>
+			</div>
+			<div class="project">
+				<h3>Project 2</h3>
+				<p>Description of your second project. <a href="#">View Project</a></p>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<div class="contact-links">
+				<a href="https://github.com/yourusername" target="_blank">GitHub Profile</a>
+				<a href="mailto:your.email@example.com">Email Me</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>© 2025 Your Name. All rights reserved.</p>
+	</footer>
+</body>
+</html>
