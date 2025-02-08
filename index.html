@@ -1,146 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-	<style>
-		/* Base Styles */
-		body {
-			margin: 0;
-			font-family: Arial, sans-serif;
-			background-color: #0d1117;
-			color: #c9d1d9;
-		}
-		a {
-			color: #58a6ff;
-			text-decoration: none;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<style>
+			/* Base Styles */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #0d1117;
+	color: #c9d1d9;
+}
+a {
+	color: #58a6ff;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 
-		/* Header */
-		header {
-			background-color: #161b22;
-			padding: 20px;
-			text-align: center;
-			border-bottom: 1px solid #30363d;
-		}
-		header h1 {
-			margin: 0;
-			font-size: 2rem;
-		}
-		header p {
-			margin: 5px 0;
-			font-size: 1rem;
-			color: #8b949e;
-		}
+/* Header */
+header {
+	background-color: #161b22;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px solid #30363d;
+}
+header h1 {
+	margin: 0;
+	font-size: 2rem;
+}
+header p {
+	margin: 5px 0;
+	font-size: 1rem;
+	color: #8b949e;
+}
 
-		/* Main Content */
-		main {
-			padding: 20px;
-			max-width: 800px;
-			margin: 0 auto;
-		}
-		section {
-			margin-bottom: 40px;
-		}
-		section h2 {
-			border-bottom: 2px solid #30363d;
-			padding-bottom: 5px;
-			margin-bottom: 15px;
-			font-size: 1.5rem;
-		}
-		.project {
-			background-color: #161b22;
-			padding: 15px;
-			border: 1px solid #30363d;
-			border-radius: 5px;
-			margin-bottom: 15px;
-		}
-		.project h3 {
-			margin: 0 0 5px 0;
-			font-size: 1.2rem;
-		}
-		.project p {
-			margin: 0;
-			color: #8b949e;
-		}
-		
-		/* Experienc section */
-			.project ul li h4{
-					  margin: 0 0 5px 0;
-			    font-size: 1.2rem;
-					}
+/* Main Content */
+main {
+	padding: 20px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+section {
+	margin-bottom: 40px;
+}
+section h2 {
+	border-bottom: 2px solid #30363d;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	font-size: 1.5rem;
+}
 
-		/* Contact Section */
-		.contact-links {
-			display: flex;
-			flex-direction: column;
-			gap: 10px;
-		}
-		.contact-links a {
-			display: inline-block;
-			padding: 10px 15px;
-			background-color: #21262d;
-			border: 1px solid #30363d;
-			border-radius: 5px;
-			text-align: center;
-			transition: background-color 0.2s;
-		}
-		.contact-links a:hover {
-			background-color: #30363d;
-		}
+/* Projects & Experience */
+.project {
+	background-color: #161b22;
+	padding: 15px;
+	border: 1px solid #30363d;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.project h3 {
+	margin: 0 0 5px;
+	font-size: 1.2rem;
+}
+.project p {
+	margin: 0;
+	color: #8b949e;
+}
+.project ul {
+	padding: 0 10px;
+	margin: 0;
+	list-style: none;
+}
+.project ul li h3 {
+	margin: 0;
+	font-size: 1.2rem;
+}
 
-		/* Footer */
-		footer {
-			text-align: center;
-			padding: 10px 0;
-			font-size: 0.9rem;
-			color: #8b949e;
-			border-top: 1px solid #30363d;
-			margin-top: 20px;
-		}
-	</style>
-</head>
-<body>
-	<header>
-		<h1>Ahsanur Rahman Sayem</h1>
-		<p>Welcome to my portfolio!</p>
-	</header>
-	<main>
-		<section id="projects">
-			<h2>Projects/Work</h2>
-			<div class="project">
-				<h3>Refugee Manager</h3>
-				<p>"Refugee Manager" is a LAN based Python Flask Application to Manage the Refugee familes in a Refugee Camp. <a href="https://github.com/ahsanurrahman-sayem/Refugee-manager">View Project</a></p>
-			</div>
-			<div class="project">
-				<h3>X Note</h3>
-				<p>X Note is a Application for Android Devices that creates private notes in you device using a custom Encryption and Decryption System.<a href="https://github.com/ahsanurrahman-sayem/xNote">View Project</a></p>
-			</div>
-		</section>
-		<section id="exp">
-			<h2>Experienced in</h2>
-			<div class="project">
-		   <ul>
-			   <li><h4>Java</h4></li>
-			   <li><h4>C</h4></li>
-			   <li><h4>Python</h4></>
-		  </ul>
-		</div>
-		</section>
-		<section id="contact">
-			<h2>Contact</h2>
-			<div class="contact-links">
-				<a href="https://github.com/ahsanur-rahman" target="_blank">GitHub Profile</a>
-				<a href="mailto:ahsanurrahman10000@icloud.com">Email Me</a>
-			</div>
-		</section>
-	</main>
-	<footer>
-		<p>© 2025 Ahsanur Rahman. All rights reserved.</p>
-	</footer>
-</body>
+/* Contact Section */
+.contact-links {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.contact-links a {
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: #21262d;
+	border: 1px solid #30363d;
+	border-radius: 5px;
+	text-align: center;
+	transition: background-color 0.2s;
+}
+.contact-links a:hover {
+	background-color: #30363d;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	padding: 10px 0;
+	font-size: 0.9rem;
+	color: #8b949e;
+	border-top: 1px solid #30363d;
+	margin-top: 20px;
+}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Ahsanur Rahman Sayem</h1>
+			<p>Welcome to my portfolio!</p>
+		</header>
+		<main>
+			<section id="projects" style="margin: 0; padding: 0">
+				<h2>Projects/Work</h2>
+				<div class="project">
+					<h3>Refugee Manager</h3>
+					<p>
+						"Refugee Manager" is a LAN based Python Flask
+						Application to Manage the Refugee familes in a Refugee
+						Camp.
+						<a
+							href="https://github.com/ahsanurrahman-sayem/Refugee-manager"
+							>View Project</a
+						>
+					</p>
+				</div>
+				<div class="project">
+					<h3>X Note</h3>
+					<p>
+						X Note is a Application for Android Devices that creates
+						private notes in you device using a custom Encryption
+						and Decryption System.<a
+							href="https://github.com/ahsanurrahman-sayem/xNote"
+							>View Project</a
+						>
+					</p>
+				</div>
+			</section>
+			<section id="exp">
+				<h2>Experienced in</h2>
+				<div
+					class="project"
+					style="
+						padding: 0 10 0 10;
+						background-color: #0d1117;
+						border: none;
+					"
+				>
+					<ul>
+						<li><h3>Java</h3></li>
+						<li><h3>C</h3></li>
+						<li><h3>Python</h3></li>
+					</ul>
+				</div>
+			</section>
+			<section id="contact">
+				<h2>Contact</h2>
+				<div class="contact-links">
+					<a href="https://github.com/ahsanur-rahman" target="_blank"
+						>GitHub Profile</a
+					>
+					<a href="mailto:ahsanurrahman10000@icloud.com">Email Me</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>© 2025 Ahsanur Rahman. All rights reserved.</p>
+		</footer>
+	</body>
 </html>
